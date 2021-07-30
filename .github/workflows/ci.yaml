@@ -1,5 +1,8 @@
 name: ci-integracao-continua
-on: [push]
+on: 
+  pull-request:
+    branches:
+      - master
 jobs:
   check-application:
     runs-on: ubuntu-latest
