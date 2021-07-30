@@ -1,0 +1,17 @@
+{
+  "name": "integracao-continua",
+  "version": "1.0.0",
+  "description": "Projeto de estudos de integração contínua e teste com Jest",
+  "main": "./src",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc; nodemon ./dist",
+    "prod": "tsc; node ./dist"
+  },
+  "author": "Felipe de Bittencourt Fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.7",
+    "jest": "^27.0.6"
+  }
+}
