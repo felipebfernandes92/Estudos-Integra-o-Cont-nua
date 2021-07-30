@@ -1,7 +1,7 @@
 {
   "name": "integracao-continua",
   "version": "1.0.0",
-  "description": "Projeto de estudos de integração contínua e teste com Jest e TypeScript",
+  "description": "Projeto de estudos de integração contínua, testes com Jest e TypeScript",
   "main": "./src",
   "scripts": {
     "test": "jest",
